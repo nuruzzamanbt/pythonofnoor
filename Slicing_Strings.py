@@ -1,0 +1,12 @@
+print("-----String Slicing-----")
+x = str("Nuruzzaman")
+print(x[2:8])
+print(x[:7])
+print(x[5:])
+print("-----String Slicing (Negetive indexing)-----")
+s = "Nuruzzama Shawon"
+print(s)
+print(s[-5:-2])
+print(len(s))
+print(s[len(s)-5:len(s)-2])
+print(s[12:15])
