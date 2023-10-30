@@ -11,11 +11,14 @@ p = "Shawon"
 q = 43.2-65
 r = None
 s = 0
+t
+
 
 print(bool(p))
 print(bool(q))
 print(bool(r))
 print(bool(s))
+print(bool(t))
 
 class shawon():
     def __len__(selfie):
