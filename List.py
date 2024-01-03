@@ -48,5 +48,12 @@ while j < len(nList5):
     print(j*11+1)
     j = j + 1
 
+nList7 = ["Nuruzzaman", "Shawon", "Muslima", "Joti", "Alif", "Tanvir"]
+nList8 = [a.upper() for a in nList7 if "a" in a];
+print(nList8)
+nList9 = [ a for a in nList7]
+nList9.extend(nList8)
+print(nList9)
+
 
 
